@@ -31,7 +31,7 @@ const Data = [
 ];
 
 function AllMeetups() {
-  /*const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [loadedMeetups, setLoadedMeetups] = useState([]);
 
   useEffect(() => {
@@ -60,7 +60,7 @@ function AllMeetups() {
         <p>Loading...</p>
       </section>
     );
-  } */
+  } 
 
   return (
     <section>
